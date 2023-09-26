@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/pips.css";
 
 export default function PipBox({ pip }) {
   return (

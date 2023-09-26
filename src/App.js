@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import MainContent from './components/MainContent';
+import "./styles/container.css";
 
 function App() {
   return (
     <div className="container">
-      <header className="App-header">
-        <MainContent></MainContent>
-      </header>
+      <header></header>
+      <MainContent></MainContent>
     </div>
   );
 }
