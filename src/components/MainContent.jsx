@@ -12,6 +12,7 @@ export default function MainContent() {
     <main>
       <div className="list">
         <div className="add-container">
+          
           <AddPip pips={pips} setPips={setPips}/>
         </div>
         {pips.map((pip, index) => {
