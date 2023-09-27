@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PipBox from "./PipBox";
 import { Pips } from "../entities/pips";
+import AddButton from "./addButton";
 
 export default function MainContent() {
   const [username, setUsername] = useState("");
@@ -40,10 +41,7 @@ export default function MainContent() {
             value={content}
             onChange={handleContentChange}
           />
-
-          <button className="add-button" onClick={handleAddPip}>
-            Add pip
-          </button>
+          <AddButton buttonText={"Add Pip"} onClick={handleAddPip}></AddButton>
         </div>
         {pips.map((pip, index) => {
             return <PipBox key={index} pip={pip} />;
