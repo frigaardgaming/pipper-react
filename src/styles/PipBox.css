@@ -1,0 +1,29 @@
+.pips {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #f5f8fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pips ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pips li {
+  margin-bottom: 5px;
+}
+
+.pips strong {
+  font-weight: bold;
+  color: #1da1f2;
+}
+
+.pips p {
+  padding-top: 6px;
+}
+
+
+  
