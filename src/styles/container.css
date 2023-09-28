@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
-.container{
+.list{
     display: flex;
+    flex-direction: column;
+}
+
+.add-container{
+    height: 100%;
+}
+
+.container{
     background-color: whitesmoke;
     min-height: 100vh;
 }
