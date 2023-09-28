@@ -2,18 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.list{
+  }
+  
+  .list {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .add-container {
+    margin-right: 20px; /* Add some margin to separate the button and pip boxes */
+  }
+  
+  .pip-container {
     display: flex;
     flex-direction: column;
-}
-
-.add-container{
-    height: 100%;
-}
-
-.container{
+  }
+  
+  .container {
     background-color: whitesmoke;
     min-height: 100vh;
-}
+  }
+  
