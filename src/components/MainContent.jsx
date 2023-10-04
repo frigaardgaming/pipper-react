@@ -14,7 +14,7 @@ export default function MainContent() {
           <AddPip pips={pips} setPips={setPips} />
         </div>
         <div className="pip-container">
-          {pips.map((pip, index) => {
+          {pips.toReversed().map((pip, index) => {
             return <PipBox key={index} pip={pip} />;
           })}
         </div>

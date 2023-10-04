@@ -6,6 +6,7 @@ export default function PipBox({ pip }) {
     <div className="pips">
       <ul>
         <li>
+          <img src={"https://api.multiavatar.com/" + pip.username + ".png"} alt="" className="icon" />
           <strong>{pip.username}</strong>
           <p>{pip.content}</p>
         </li>
